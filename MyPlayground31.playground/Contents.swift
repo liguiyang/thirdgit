@@ -36,10 +36,10 @@ internal class Person: Equatable, CustomStringConvertible {
 
 let p1 = Person(name: "lgy", gender: .male)
 let p2 = Person(name: "gyx", gender: .female)
-print(p1.name)
-//p1.name = "ssss"
-
-p1.say()
+//print(p1.name)
+////p1.name = "ssss"
+//
+//p1.say()
 
 p1[29,3]
 p1 === p2
